@@ -5,13 +5,16 @@ public class AbsoluteValue {
         System.out.println("Absolute Value Calculator");
         System.out.println("========================");
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter number: ");
+        do {
+        System.out.println("Enter number: ");
         if (!input.hasNextInt()) {
             System.out.println("Error: Please enter a valid integer.");
             return;
         }
         int n = input.nextInt();
-        n = Math.abs(n);
-        System.out.println("Absolute = " + n);
+        int result = Math.abs(n);
+        System.out.println("Absolute = " + result);
+        System.out.print("Calculate another? (y/n): ");
+        } while (input.hasNext() && input.next().equalsIgnoreCase("y"));
     }
 }
