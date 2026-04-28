@@ -14,5 +14,9 @@ public class Modulus {
         if (b == 0) {
             System.out.println("Error");
         }
+
+        else {
+            System.out.println("Remainder = " + (a % b));
+        }
     }
 }
