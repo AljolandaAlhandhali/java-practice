@@ -11,5 +11,8 @@ public class Modulus {
         System.out.print("Enter second numbers: ");
         int b = input.nextInt();
 
+        if (b == 0) {
+            System.out.println("Error");
+        }
     }
 }
