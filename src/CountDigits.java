@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class CountDigits {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter number: ");
+        String n = input.next();
+        if (n.startsWith("-") || n.startsWith("+")) {
+            n = n.substring(1);
+        }
+        int count = n.length();
+        System.out.println("Number of digits: " + count);
+    }
+}
