@@ -12,5 +12,8 @@ public class CountDigits {
             n = n.substring(1);
         }
 
+        int count = n.length();
+        System.out.println("Number of digits: " + count);
+
     }
 }
