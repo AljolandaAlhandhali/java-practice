@@ -9,5 +9,8 @@ public class EvenOdd {
 
         int n = sc.nextInt();
 
+        if (n % 2 == 0) {
+        }
+
     }
 }
