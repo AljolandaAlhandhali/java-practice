@@ -13,5 +13,8 @@ public class EvenOdd {
             System.out.println(n + " is Even");
         }
 
-    }
+        else {
+        }
+
+        }
 }
