@@ -7,6 +7,7 @@ public class EvenOdd {
 
         System.out.print("Enter number: ");
 
+        int n = sc.nextInt();
 
     }
 }
