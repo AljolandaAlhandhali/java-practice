@@ -8,6 +8,8 @@ public class SumOfDigits {
 
         int n = Math.abs(input.nextInt());
 
+        int sum = 0;
+
 
     }
 }
