@@ -6,7 +6,7 @@ public class SumOfDigits {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a Number: ");
 
-        int n = input.nextInt();
+        int n = Math.abs(input.nextInt());
 
 
     }
