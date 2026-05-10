@@ -12,5 +12,8 @@ public class Palindrome {
         int temp = n;
         int rev = 0;
 
+        while (n > 0) {
+        }
+
     }
 }
