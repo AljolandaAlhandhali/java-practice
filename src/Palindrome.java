@@ -22,8 +22,8 @@ public class Palindrome {
         }
 
         else {
+            System.out.println("Not Palindrome");
         }
-
 
     }
 }
