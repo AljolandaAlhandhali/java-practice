@@ -9,5 +9,8 @@ public class Palindrome {
 
         int n = input.nextInt();
 
+        int temp = n;
+        int rev = 0;
+
     }
 }
