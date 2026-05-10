@@ -18,6 +18,7 @@ public class Palindrome {
         }
 
         if (temp == rev) {
+            System.out.println("Palindrome");
         }
 
 
