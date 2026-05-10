@@ -21,6 +21,9 @@ public class Palindrome {
             System.out.println("Palindrome");
         }
 
+        else {
+        }
+
 
     }
 }
