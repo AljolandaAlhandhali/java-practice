@@ -7,5 +7,7 @@ public class Palindrome {
 
         System.out.print("Enter a number: ");
 
+        int n = input.nextInt();
+
     }
 }
