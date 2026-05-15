@@ -9,5 +9,8 @@ public class ReverseNumber {
 
         int n = input.nextInt();
 
+        int rev = 0;
+
+
     }
 }
