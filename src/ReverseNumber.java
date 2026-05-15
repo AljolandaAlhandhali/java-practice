@@ -11,6 +11,8 @@ public class ReverseNumber {
 
         int rev = 0;
 
+        while (n > 0) {
+        }
 
-    }
+        }
 }
