@@ -7,6 +7,7 @@ public class ReverseNumber {
 
         System.out.print("Enter a number: ");
 
+        int n = input.nextInt();
 
     }
 }
